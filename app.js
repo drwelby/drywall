@@ -5,15 +5,15 @@ var express = require('express'),
 function flipTMSy(y,z) {
     ymax = 1 << z;
     return ymax - y - 1;
-
 }
 
+// Configure your local tile set here
 var our_server = {
-    tiles : "./tiles",
+    tiles : "./tiles", // the location of your tile set
     tms: true
 }
 
-//Leaflet style
+// Configure the server to redirect to here, a la Leaflet
 var other_server =  {
     url: "http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg",
     tms: false,

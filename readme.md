@@ -10,9 +10,9 @@ DRYwall is a simple Node server that will return tiles to map requests, but if t
 
 ### How it works: 
 
-1) Set your tile folder
-2) Set the url definition of another map server (Leaflet style)
-3) Fire up the server and you're set
+1. Set your tile folder
+2. Set the url definition of another map server (Leaflet style)
+3. Fire up the server and you're set
 
 ### To Do:
 
