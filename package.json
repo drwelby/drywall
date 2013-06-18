@@ -1,0 +1,13 @@
+{
+    "name": "drywall"
+  , "description": "Don't repeat yourtiles server"
+  , "version": "0.0.1"
+  , "private": false
+  , "author": "Marc Pfister"
+  , "dependencies": {
+    "express": "*"
+  }
+  , "engines": {
+    "node": "0.6.x"
+  }
+}
